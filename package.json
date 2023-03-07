@@ -1,12 +1,10 @@
 {
   "name": "interactive-rating-comp",
-  "homepage": "http://umernk42.github.io/Interactive-Rating-Component",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "deploy" : "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
