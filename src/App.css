@@ -118,13 +118,15 @@ body{
 }
 
 .selected{
-  background-color: hsl(213, 12%, 46%); 
+  background-color: hsl(217, 12%, 63%); 
+  color: white;
 }
 
 
 .rating-btn:hover{
-  background-color: hsl(213, 12%, 46%); 
+  background-color: hsl(25, 97%, 53%); 
   cursor: pointer;
+  color: white;
 }
 
 
@@ -145,5 +147,6 @@ body{
 
 .Submit:hover,.Submit:active{
   cursor: pointer;
-  background-color: hsla(25, 97%, 53%, 0.739);
+  background-color: white;
+  color: hsl(25, 97%, 53%);
 }
