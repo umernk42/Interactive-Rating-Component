@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+}
+
+#root{
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+}
+
+.App{
+  height: 400px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  background-color: hsl(213, 19%, 18%);
+  color: white;
+}
+
+.rating-comp{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Thank-Comp{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Thank-Img{
+  margin-bottom: 1.3rem;
+}
+
+.rating-result{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+  color: orange;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  background-color: hsl(213, 14%, 25%);;
+}
+
+.ThankYou-Text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  
+}
+
+.ThankYou-Text h1{
+  margin-bottom: 1rem;
+}
+
+.ThankYou-Text p{
+  color: hsl(217, 12%, 63%);
+}
+
+
+
+
+.logo{
+  border: 1px solid hsl(213, 19%, 18%);
+  background-color: hsl(213, 14%, 25%);
+  display: inline-flex;
+  border-radius: 50%;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.text-area{
+ margin-bottom: 0.6rem;
+}
+
+.text-area p{
+  color: hsl(216, 12%, 54%);
+}
+
+.text-area p, .text-area h1{
+  margin-bottom: 0.6rem;
+}
+
+.rating-list{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.rating-btn{
+  outline: none;
+  border: none;
+  background-color: hsl(213, 14%, 25%);
+  color: hsl(216, 12%, 54%);
+  display: inline-flex;
+  border-radius: 50%;
+  padding: 0.6rem;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected{
+  background-color: hsl(213, 12%, 46%); 
+}
+
+
+.rating-btn:hover{
+  background-color: hsl(213, 12%, 46%); 
+  cursor: pointer;
+}
+
+
+.Submit{
+  display: inline-flex;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border-radius: 2.5rem;
+  font-size: 1.1rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Submit:hover,.Submit:active{
+  cursor: pointer;
+  background-color: hsla(25, 97%, 53%, 0.739);
+}
